@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 30px;
+}
+.header {
+  border: 2px solid black;
+  width: 100%;
+  height: 100px;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+}
+.header-search {
+  padding: 10px 0;
+  display: flex;
+}
+.header-search input {
+  width: 400px;
+  height: 60px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.header-sections {
+}
+.header-sections ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 100px;
+}
+.header-sections ul li {
+  padding: 10px 30px;
+}
+
+.header-bussiness {
+}
+.header-sections-i {
+  display: flex;
+}
+i {
+  font-size: 40px;
+}
